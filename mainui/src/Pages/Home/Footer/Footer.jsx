@@ -1,0 +1,14 @@
+import React from 'react';
+import './Footer.css'
+
+const Footer = () => {
+    return (
+        <div className="footer-bg">       
+            <div className="footer-copy-right text-center text-white">
+                <p className='mb-0'><span className="developer">Pathology Lab Management </span>  All Rights Reserved</p>
+            </div>
+        </div>
+    );
+};
+
+export default Footer;
